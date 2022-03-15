@@ -10,9 +10,8 @@
 
 <body>
     <main>
-        <article>
-        </article>
-        <button>Click</button>
+    <button id="button">Click</button>
+    <article>L'important n'est pas la chute, mais l'atterrissage.</article>
     </main>
 
 </body>

@@ -1,12 +1,20 @@
 'use strict';
 
 document.addEventListener('DOMContentLoaded', function loaded() {
-    var bouton = document.querySelector('button');
     var article = document.querySelector('article');
-
-    function onClickChangeHTML() {
-        article.innerHTML = "L'important n'est pas la chute, mais l'atterrissage";
-    }
     
-    bouton.addEventListener('click', onClickChangeHTML)
-});
+    article.style.display = 'none';
+
+    function showhide()
+    {
+        if(article.style.display !== 'none')
+        {
+            article.style.display = 'none';
+        }
+        else
+        {
+            article.style.display = 'block';
+        }
+    }
+    document.querySelector('button').onclick = showhide;
+})
