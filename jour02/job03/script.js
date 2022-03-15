@@ -10,7 +10,7 @@ document.addEventListener('DOMContentLoaded', function loaded() {
     var p = document.getElementById('compteur');
 
     function addone(){
-        var nombreclick = compteur.innerHTML;
+        var nombreclick = p.innerHTML;
         nombreclick++;
         p.innerHTML = nombreclick;
     }

@@ -8,6 +8,6 @@
     <script type="text/javascript" src="script.js"></script>
 </head>
 <body>
-<textarea id="keylogger"></textarea>
+<textarea id="keylogger" cols="30" rows="10"></textarea>
 </body>
 </html>
