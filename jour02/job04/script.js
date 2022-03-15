@@ -9,7 +9,7 @@ document.addEventListener('DOMContentLoaded', function loaded() {
 
     var textarea = document.getElementById('keylogger');
 
-    function keylogger() {
+    function keylogger(event) {
         var ancienmot = textarea.value;
         var lettre = event.key
         
