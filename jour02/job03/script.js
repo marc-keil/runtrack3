@@ -12,7 +12,7 @@ document.addEventListener('DOMContentLoaded', function loaded() {
     function addone(){
         var nombreclick = compteur.innerHTML;
         nombreclick++;
-        compteur.innerHTML = nombreclick;
+        p.innerHTML = nombreclick;
     }
 
     bouton.addEventListener('click', addone)

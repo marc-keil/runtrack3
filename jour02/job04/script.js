@@ -1,1 +1,7 @@
-window.alert("Hello Javascript!");
+'use strict';
+
+document.addEventListener('DOMContentLoaded', function loaded() {
+
+
+
+});
