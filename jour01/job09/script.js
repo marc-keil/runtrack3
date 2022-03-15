@@ -6,7 +6,7 @@
 
 function tri(array, order) {
 
-    if ( order != "desc" && order != "asc" ) {
+    if (order != "desc" && order != "asc") {
         return false;
     }
     var length = array.length;
@@ -20,7 +20,7 @@ function tri(array, order) {
         }
     }
     if (order == "desc") {
-        number = array.reverse();
+        array = array.reverse();
     }
     return array;
 }
@@ -30,5 +30,3 @@ var numbers = [5, 4, 6, 3, 1, 9];
 var resultat = tri(numbers, "desc");
 
 console.log(resultat);
-
-
