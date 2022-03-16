@@ -3,16 +3,28 @@
 
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Job 02</title>
+    <title>Document</title>
 </head>
 
 <body>
-    <div id="melangees"></div>
-    <button id="button">Mélanger</button>
-    <div id="rangees"></div>
+    <section id="tableaux">
+        <div id="melangees">
+
+
+        </div>
+        <button id="button">Mélanger</button>
+        <div id="rangees">
+            <img id="id1" src="arc1.png"></img>
+            <img id="id2" src="arc2.png"></img>
+            <img id="id3" src="arc3.png"></img>
+            <img id="id4" src="arc4.png"></img>
+            <img id="id5" src="arc5.png"></img>
+            <img id="id6" src="arc6.png"></img>
+        </div>
+    </section>
 </body>
-<script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
-    <script type="text/javascript" src="script.js"></script>
+
 </html>
+<script src="https://code.jquery.com/jquery-3.6.0.js"></script>
+<script src="script.js"></script>
